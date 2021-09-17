@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+body{
+    background: var(--preto);
+}
+
+/* Header */
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+nav a{
+    color: #AAA;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+nav a:nth-child(4){
+    margin-right: 20px;
+}
