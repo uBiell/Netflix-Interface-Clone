@@ -14,6 +14,7 @@
 
 body{
     background: var(--preto);
+    color: #fff;
 }
 
 /* Header */
@@ -43,4 +44,24 @@ nav a:hover{
 
 nav a:nth-child(4){
     margin-right: 20px;
+}
+
+/* Filme Principal */
+.filme-principal{
+    font-size: 1rem;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5) 100%), url('/resources/img/capa-doc-schumacher.jpg');
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 1rem;
+}
+
+.titulo{
+    font-size: 3rem;
 }
