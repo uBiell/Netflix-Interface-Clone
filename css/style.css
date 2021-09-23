@@ -59,9 +59,39 @@ nav a:nth-child(4){
 }
 
 .filme-principal .descricao{
+    margin-top: .5rem;
     margin-bottom: 1rem;
 }
 
 .titulo{
+    margin-top: 1.2rem;
     font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    margin-right: .5rem;
+    font-family: sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: .7s;
+}
+
+.botao i{
+    margin-right: 9px;
+}
+
+.botao, .titulo, .descricao{
+    margin-left: 1rem;
 }
